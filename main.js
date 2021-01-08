@@ -1,7 +1,3 @@
-let btn_left = document.getElementById("btn-left");
-let btn_right = document.getElementById("btn-right")
-
-
 addEventsCarousel()
 
 function addEventsCarousel(){
