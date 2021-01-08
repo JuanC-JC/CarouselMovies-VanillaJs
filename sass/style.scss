@@ -175,8 +175,7 @@ body{
             height: $height-category-item;
             margin-right: 10px;
             border-radius: 15px;
-            background: palevioletred;
-            transition: 0.5s all;
+            transition: 0.5s transform;
             overflow: hidden;
             cursor: pointer;
 
@@ -189,11 +188,6 @@ body{
                 //para que quede encima de sus hermanos
                 z-index: 1;
                 
-                //seleccion de todos los hermanos
-                // &~.categoria__item{
-                        
-                //     transform: translateX(100px);
-                // }
             }
 
             //el primer item tiene como propiedad transformarse desde la izquierda      
@@ -246,9 +240,17 @@ body{
 .categoria__item{
     position: relative;
     img{
+        object-fit: cover;
         width: 200px;
         height: 250px;
+
+    }
+
+    .pepe{
         object-fit: cover;
+        width: 200px;
+        height: 250px;
+
     }
 
     .item__details{

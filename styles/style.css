@@ -132,8 +132,7 @@ body {
   height: 250px;
   margin-right: 10px;
   border-radius: 15px;
-  background: palevioletred;
-  transition: 0.5s all;
+  transition: 0.5s transform;
   overflow: hidden;
   cursor: pointer;
 }
@@ -178,9 +177,14 @@ body {
   position: relative;
 }
 .categoria__item img {
+  object-fit: cover;
   width: 200px;
   height: 250px;
+}
+.categoria__item .pepe {
   object-fit: cover;
+  width: 200px;
+  height: 250px;
 }
 .categoria__item .item__details {
   display: flex;
