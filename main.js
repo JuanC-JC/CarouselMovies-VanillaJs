@@ -5,11 +5,11 @@ function addEventsCarousel(){
     let buttonsRigth = document.getElementsByName("btn-right")
 
     for(let i=0; i<buttonsLeft.length;i++){
-        buttonsLeft[i].addEventListener("click",function(){moveScroll(event,"left")})
+        buttonsLeft[i].addEventListener("click",function(event){moveScroll(event,"left")})
     }
 
     for(let i=0; i<buttonsRigth.length;i++){
-        buttonsRigth[i].addEventListener("click",function(){moveScroll(event,"right")})
+        buttonsRigth[i].addEventListener("click",function(event){moveScroll(event,"right")})
     }
 }
 
